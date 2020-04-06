@@ -93,13 +93,13 @@ Main Page
 <div class="mySlides fade">
 <div class="row"> <!-- In this line i have created one of two rows in the slide show.-->
   <div class="column"> <!-- In this line i have created the first column within the row.-->
-    <img class = "movies" src="Images\missionimp.png" alt="mission" style="width:100%"> <!-- In this line i have imported a picture into the row.-->
+    <img class = "movies" src="mission.jpg" alt="mission" style="width:100%"> <!-- In this line i have imported a picture into the row.-->
   </div>
   <div class="column"> <!-- In this line i have created the first column within the row.-->
-    <img class = "movies" src="Images\terminator.png" alt="terminator" style="width :100%"> <!-- In this line i have imported a picture into the row.-->
+    <img class = "movies" src="terminator.jpg" alt="terminator" style="width :100%"> <!-- In this line i have imported a picture into the row.-->
   </div>
   <div class="column"> <!-- In this line i have created the first column within the row.-->
-    <img class = "movies" src="Images\skyfall.png" alt="Skyfall" style="width:100%"> <!-- In this line i have imported a picture into the row.-->
+    <img class = "movies" src="skyfall.jpg" alt="Skyfall" style="width:100%"> <!-- In this line i have imported a picture into the row.-->
   </div>
 </div> 
 </div>  
@@ -108,13 +108,13 @@ Main Page
 <div class="mySlides fade">
   <div class="row"> <!-- In this line i have created the second of two rows in the slide show.-->
   <div class="column"> <!-- In this line i have imported a picture into the row.-->
-    <img class = "movies" src="Images\Avengers_Endgame_poster.jpg" alt="Avengers" style="width:100%"> <!-- In this line i have imported a picture into the row.-->
+    <img class = "movies" src="Avengers_Endgame_poster.jpg" alt="Avengers" style="width:100%"> <!-- In this line i have imported a picture into the row.-->
   </div>
   <div class="column"> <!-- In this line i have created the first column within the row.-->
-    <img class = "movies" src="Images\Revenge.jpg" alt="Revenge" style="width :100%"> <!-- In this line i have imported a picture into the row.-->
+    <img class = "movies" src="Revenge.jpg" alt="Revenge" style="width :100%"> <!-- In this line i have imported a picture into the row.-->
   </div>
   <div class="column"> <!-- In this line i have imported a picture into the row.-->
-    <img class = "movies" src="Images\Fast7.jpg" alt="Fasy7" style="width:100%"> <!-- In this line i have imported a picture into the row.-->
+    <img class = "movies" src="Fast7.jpg" alt="Fasy7" style="width:100%"> <!-- In this line i have imported a picture into the row.-->
   </div>
 </div> 
 </div>
@@ -136,7 +136,7 @@ function showSlides() { //in this line i have defined a new function called it s
     slides[i].style.display = "none";  //In this line i ensured that the display of the first set of row would be none thus it would disappear.
   }
   slideIndex++; //In this line the slideIndex would increase itself by 2.
-  if (slideIndex > slides.length) {slideIndex = 1} //In this line i set up a condition that’s dependent on the the slideIndex being greater then the length of the variable slides and the slideIndex is equal to 1
+  if (slideIndex > slides.length) {slideIndex = 1} //In this line i set up a condition thatâ€™s dependent on the the slideIndex being greater then the length of the variable slides and the slideIndex is equal to 1
   for (i = 0; i < slideshow.length; i++) { //In this line i have set the variable i to 0, i must be less then length of variable slides, after which i must increase itself by 2 thus making it 2.
     slideshow[i].className = slideshow[i].className.replace(" active", ""); //In this line i would put the slideshow variable equal to slideshow and would active the replace part for the slideshow
   }
